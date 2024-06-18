@@ -465,7 +465,7 @@
 	)
 	(text "C_int=28.5"
 		(exclude_from_sim no)
-		(at 101.346 86.614 0)
+		(at 138.176 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -473,9 +473,9 @@
 		)
 		(uuid "0c55406f-ca40-4bfd-81ed-461bf1da2e27")
 	)
-	(text "F=13.56MHz"
+	(text "f_cc=13.56MHz"
 		(exclude_from_sim no)
-		(at 102.108 89.154 0)
+		(at 140.716 54.102 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -483,15 +483,45 @@
 		)
 		(uuid "519443cd-d6b0-4c7d-9ac5-17a537bfb27f")
 	)
+	(text "L_ant=4.55uH"
+		(exclude_from_sim no)
+		(at 139.446 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ece5d61-405c-4081-8af5-9ebb8194cdee")
+	)
 	(text "C_ant=2"
 		(exclude_from_sim no)
-		(at 114.3 86.614 0)
+		(at 136.906 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "893702e9-f598-4e01-b51b-848bae9d711e")
+	)
+	(text "omega=f_cc*2*pi"
+		(exclude_from_sim no)
+		(at 140.97 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b4d1383-3634-4cc5-a6d5-62263163be76")
+	)
+	(text "L_ant*C_tot*omega^2=1"
+		(exclude_from_sim no)
+		(at 144.018 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e556b9b4-157e-4328-a714-7a2d12a316a4")
 	)
 	(text "Loop Antenna"
 		(exclude_from_sim no)
